@@ -1,0 +1,11 @@
+.clickHand {
+    cursor: pointer;
+}
+
+.positive {
+    color: #59e593 !important;
+}
+
+.negative {
+    color: #bc2405 !important;
+}

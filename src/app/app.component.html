@@ -1,0 +1,14 @@
+<div class="container text-center">
+  <h1 class="btcGreen">CryptoView</h1>
+  <hr class="bgGreen">
+  <h4 class="btcGreen">
+    Market Cap:
+    <span [innerHTML]="bitcoinMarketCap.quotes.USD.total_market_cap | currency" class="text-white font-weight-bold"></span>
+    | 24h Vol.
+    <span [innerHTML]="bitcoinMarketCap.quotes.USD.total_volume_24h | currency" class="text-white font-weight-bold"></span>
+    | BTC % of Market Cap:
+    <span [innerHTML]="bitcoinMarketCap.bitcoin_percentage_of_market_cap * 0.01 | percent:'1.2-2'" class="text-white font-weight-bold"></span>
+  </h4>
+  <hr class="bgGreen">
+  <router-outlet></router-outlet>
+</div>

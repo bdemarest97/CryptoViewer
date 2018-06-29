@@ -1,0 +1,21 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+.btcGreen {
+    color: #2eba4c;
+}
+
+.bgGreen {
+    background-color: #2eba4c;
+}
+
+.bgWhite {
+    background-color: white;
+}
+
+.borderWhiteAll {
+    border: 2px solid #2eba4c !important;
+}
+
+.borderWhiteBottom {
+    border-bottom: 2px solid #2eba4c !important;
+}
